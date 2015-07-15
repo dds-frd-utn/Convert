@@ -1,5 +1,7 @@
 package example;
 
+import java.util.Date;
+
 /**
  * @class	User
  * @desc	Clase de ejemplo que repretara a objetos del tipo Usuario
@@ -18,11 +20,15 @@ public class User {
 	
 	public String address;
 	
+	public Date birthday;
+	
 	public User(String nameToSet, String lastName) {
 		
 		this.name = nameToSet;
 		
 		this.lastName = lastName;
+		
+		this.birthday = new Date();
 		
 	}
 	

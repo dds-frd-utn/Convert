@@ -16,7 +16,7 @@ public class Main {
 		
 		Converter myConverter = new Converter();
 						
-		myConverter.convert(myArray,"C:\\DDS\\test.csv");
+		myConverter.convert(myArray,"/home/alumno/test.csv");
 		
 		
 	}

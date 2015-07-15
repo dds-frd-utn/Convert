@@ -65,9 +65,7 @@ public class Converter {
         {
         	//	Intento obtener el valor del campo y escribirlo
         	try {
-        		
-        		System.out.println(fields[j].get(object).toString());
-        		
+        		        		
         		//	Obtengo el valor del campo y lo escribo agrego a la fila encerrandolo entre comillas       		
         		if	(fields[j].get(object) == null)
         			throw new IllegalArgumentException();
